@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment / Secrets
+.env
+*.json
+!*.template.json
+
+# Airflow
+.airflow/
+airflow.db
+logs/
+
+# OS / Editor
+.DS_Store
